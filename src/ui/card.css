@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+body{
+        background-color:#E9F5FF;
+       
+    }
+}
+
+.slick-slide > div{
+    margin: 5px 8px;
+}
+
+.card-container {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+.card-container:hover {
+    transform: scale(.90);
+    z-index: 1;
+}
+
